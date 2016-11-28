@@ -5,3 +5,9 @@
 .table-of-contents {
   margin-top: 4em;
 }
+nav{
+  z-index: 2;
+}
+.container{
+  z-index: 0;
+}

@@ -2,6 +2,10 @@
 
 $(document).ready(function(){
     $('.scrollspy').scrollSpy();
-    $('.carousel.carousel-slider').carousel({full_width: true});    
+    $('.carousel').carousel({full_width: true});
   })
 
+  $('.btn').click( function()
+  {
+    $('.carousel').carousel('next');
+  });

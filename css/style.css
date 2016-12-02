@@ -10,11 +10,11 @@ footer{
 }
 
 .carousel{
-  height: 600px !important;
+  height: 700px !important;
   margin: 100px 0;
   bottom: 200px;
 }
 
 carousel-item{
-  height: 600px !important;
+  height: 700px !important;
 }

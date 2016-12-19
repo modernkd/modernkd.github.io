@@ -1,0 +1,77 @@
+            .agenda {
+              margin-left: 22vw;
+              margin-top: 10vh;
+              width: 31vw !important;
+              max-height: 72vh !important;
+              min-height: 72vh !important;
+              padding: 0 1vw;
+              background-color: #ececec;
+              position: relative;
+            }
+
+            .container {
+              margin-top: 10vh;
+              /* center the element */
+              right: 0px;
+              left: 0px;
+              margin-right: auto;
+              margin-left: auto;
+              position: relative;
+            }
+
+            body {
+              font-family: helvetica;
+              color: #7c7c7c;
+            }
+
+            .event {
+              overflow: hidden;
+              padding-left: 1vw;
+              background-color: white;
+              position: absolute;
+              border: 0.1vw solid #C2C2C2;
+              border-left: 0.3vw solid #4B6EA9;
+              box-sizing: border-box;
+              line-height: 1vh;
+            }
+
+            .event h1 {
+              word-wrap: no-wrap;
+              overflow: hidden;
+              font-size: 2vh;
+              line-height: 2vh;
+              color: #4B6EA9;
+            }
+
+            .event p {
+              overflow: hidden;
+              font-size: 1.5vh;
+              line-height: 1.5vh;
+              margin-top: -.5vh;
+              font-style: italic;
+            }
+
+            .time {
+              text-align: right;
+              display: block;
+              font-size: 1.5vh !important;
+              line-height: 1.5vh !important;
+              max-height: 1.5vh !important;
+              box-sizing: border-box;
+              overflow: hidden;
+              word-wrap: normal;
+            }
+
+            .time-top {
+              font-weight: 600;
+              font-size: 1.7vh;
+            }
+
+            .times {
+              margin-top: -1vh;
+              margin-left: 15vw;
+              width: 5vw;
+              max-height: 72vh !important;
+              min-height: 72vh !important;
+              position: fixed;
+            }
